@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LinguaBloom 🌸</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fce4ec, #e3f2fd);
+      color: #444;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #6a5acd;
+    }
+
+    header p {
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background: #6a5acd;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #8573e6;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #6a5acd;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .word {
+      font-size: 1.5rem;
+      color: #6a5acd;
+      margin-bottom: 10px;
+    }
+
+    .sdg {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .sdg div {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      width: 280px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>LinguaBloom 🌸</h1>
+    <p>
+      Preserving endangered languages through play, culture, and technology.
+      When a language survives, a culture survives.
+    </p>
+    <a href="#learn" class="btn">Start Learning</a>
+  </header>
+
+  <section id="learn">
+    <h2>Learn an Endangered Language</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="word">Aloha</div>
+        <p>Hawaiian greeting meaning love, peace, and hello.</p>
+      </div>
+
+      <div class="card">
+        <div class="word">Mahalo</div>
+        <p>Means thank you — gratitude is central to Hawaiian culture.</p>
+      </div>
+
+      <div class="card">
+        <div class="word">ʻOhana</div>
+        <p>Family — not just by blood, but by connection.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why This Matters</h2>
+    <div class="cards">
+      <div class="card">
+        🌍<br><br>
+        Over 40% of languages are at risk of disappearing.
+      </div>
+      <div class="card">
+        📚<br><br>
+        Learning in your mother tongue improves education.
+      </div>
+      <div class="card">
+        🧠<br><br>
+        Games and AR make learning fun and accessible.
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Supporting the SDGs</h2>
+    <div class="sdg">
+      <div>
+        <h3>SDG 4</h3>
+        <p>Quality Education through inclusive, interactive learning.</p>
+      </div>
+      <div>
+        <h3>SDG 10</h3>
+        <p>Reduced Inequalities by empowering minority languages.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    🌸 LinguaBloom • Digital Tools for Cultural Preservation
+  </footer>
+
+</body>
+</html>
